@@ -1,0 +1,382 @@
+@import 'https://fonts.googleapis.com/css?family=Sriracha';
+body {
+    background: rgb(0, 0, 0);
+    width: 960px;
+    margin: auto;
+ 
+}
+.head {
+    margin-left: 350px;
+    width: 450px;
+    height: 110px;
+    margin-left: 255px;
+    margin-top: -5px;
+ 
+  
+    
+}
+
+
+
+.poster {
+    width: 300px;
+    margin: right;
+    float: right;
+    height: 370px;
+}
+
+
+
+.text {
+    margin-top: 20px;
+    font-family: 'Sriracha', cursive;
+    font-size: 23px;
+    color:#b44f4f; 
+    line-height: 23px;
+    
+}
+
+
+
+
+
+
+.footertext {
+   text-align: center;
+    margin-top: 65px;
+    font-family: 'Sriracha', cursive;
+    font-size: 18px;
+    color:#b44f4f; 
+    line-height: 15px;
+}
+
+
+
+.elo {
+    width: 370px;
+    float: left;
+    margin-top: 10px;
+    font-family: 'Sriracha', cursive;
+    font-size: 22px;
+    color:#b44f4f; 
+    line-height: 20px;
+}
+
+.midpic {
+    height: 335px; 
+    width: 230px;
+
+   
+   
+}
+
+.elo2 {
+    width: 360px;
+    float: right;
+    margin-top: 10px;
+    font-family: 'Sriracha', cursive;
+    font-size: 22px;
+    color:#b44f4f;
+    line-height: 20px;
+
+}
+}
+
+.wtfdiv {
+    width: 370px;
+}
+
+
+
+
+
+
+
+.pic4asozdatel9 {
+ width: 100%;
+}
+
+.elo3 {
+    width: 960px;
+    float: right;
+    margin-top: 5px;
+    font-family: 'Sriracha', cursive;
+    font-size: 20px;
+    color:#b44f4f; 
+    line-height: 18px;
+}
+
+.zagolovok {
+    text-align: left;
+    margin-top: 10px;
+    font-family: 'Sriracha', cursive;
+    font-size: 26px;
+    color:#b44f4f; 
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.footertext2 {
+   text-align: center;
+    margin-top: 100px;
+    font-family: 'Sriracha', cursive;
+    font-size: 18px;
+    color:#b44f4f; 
+    line-height: 15px;
+
+}
+
+
+
+.footertext3 {
+    text-align: center;
+    float: right;
+    margin-top: 50px;
+    font-family: 'Sriracha', cursive;
+    font-size: 18px;
+    color:#b44f4f; 
+    line-height: 15px;
+    
+}
+
+.rightpick {
+    width: 300px;
+    float: right;
+    margin-top: 0px;
+}
+
+.elo4 {
+    width: 680px;
+    font-family: 'Sriracha', cursive;
+    font-size: 17px;
+    color:#b44f4f; 
+    margin-top: 0px;
+    line-height: 15px;
+}
+
+
+
+
+
+.elo5 {
+    width: 960px;
+    font-family: 'Sriracha', cursive;
+    font-size: 17px;
+    color:#b44f4f; 
+    margin-top: 0px;
+    float: left;
+    line-height: 15px;
+}
+
+.pip {
+    font-family: 'Sriracha', cursive;
+    font-size: 20px;
+    color:#b44f4f; 
+    margin-top: 0px;
+}
+
+.pick {
+    width: 240px;
+    float: left;
+    margin-top: 15px;
+}
+
+.pick1 {
+    width: 270px;
+    float: right;
+    margin-top: 15px;
+    height: 170px;
+}
+
+.blo4ka {
+  
+}
+
+.para2 {
+    width: 720px;
+    float: left;
+    margin-top: 5px;
+    font-family: 'Sriracha', cursive;
+    font-size: 18px;
+    color:#b44f4f; 
+    line-height: 16px;
+}
+
+.para3 {
+    float: left;
+    font-family: 'Sriracha', cursive;
+    font-size: 16px;
+    color:#b44f4f; 
+}
+
+
+.pick3 {
+    width: 960px;
+    float: left;
+    margin-top: 0px;
+}
+
+.para4 {
+    width: 660px;
+    float: left;
+    margin-top: 15px;
+    font-family: 'Sriracha', cursive;
+    font-size: 25px;
+    color:#b44f4f; 
+}
+
+.para5 {
+    width: 660px;
+    float: left;
+    margin-top: 15px;
+    font-family: 'Sriracha', cursive;
+    font-size: 16px;
+    color:#b44f4f; 
+}
+
+.para6 {
+    width: 960px;
+    margin-top: 15px;
+    font-family: 'Sriracha', cursive;
+    font-size: 16px;
+    color:#b44f4f; 
+    float: right;
+}
+
+
+
+
+.zagolovok2 {
+    width: 370px;
+    float: left;
+    margin-top: 0.2px;
+    font-family: 'Sriracha', cursive;
+    font-size: 16px;
+    color:#b44f4f; 
+}
+}
+
+
+
+.zagolovok1 {
+    text-align: left;
+    margin-top: 10px;
+    font-family: 'Sriracha', cursive;
+    font-size: 23px;
+    color:#b44f4f; 
+}
+
+.zagolovol1 {
+    width: 640px;
+    font-family: 'Sriracha', cursive;
+    font-size: 16px;
+    color:#b44f4f; 
+    margin-top: 0px;
+}
+
+.zagolovok3 {
+    width: 640px;
+    font-family: 'Sriracha', cursive;
+    font-size: 20px;
+    color:#b44f4f; 
+    margin-top: 5px;
+    line-height: 18px;
+}
+
+.zagolovok4 {
+    width: 640px;
+    font-family: 'Sriracha', cursive;
+    font-size: 22px;
+    color:#b44f4f; 
+    margin-top: 10px;
+    line-height: 20px;
+ 
+}
+
+
+
+
+
+.akka {
+    font-family: 'Sriracha', cursive;
+    font-size: 18px;
+    color:#b44f4f; 
+    line-height: 16px;
+    padding: 10px 10px;
+    margin-top: 5px;
+}
+
+
+
+
+.pictureleft {
+    width: 300px;
+    margin-top: 0px;
+    float: right;
+    height: 360px;
+    
+}
+
+.paragraf5 {
+    float: left;
+    margin-top: 20px;
+    font-family: 'Sriracha', cursive;
+    font-size: 20px;
+    color:#b44f4f; 
+    line-height: 20px;
+    width: 660px;
+    height: 360px;
+}
+
+.krowka {
+    margin-top: 10px;
+}
+
+.rightpicture {
+    width: 280px;
+    height: 340px;
+    float: right;
+    margin-top: 0px;
+}
+
+.akka2 {
+    font-family: 'Sriracha', cursive;
+    font-size: 16px;
+    color:#b44f4f; 
+    line-height: 16px;
+    padding: 10px 10px;
+    margin-top: 5px;
+}
+
+.rightpicture1 {
+    width: 346px;
+    height: 281px;
+    float: right;
+    margin-top: 0px;
+}
+
+
+.zagolovok5 {
+    text-align: left;
+    margin-top: 10px;
+    font-family: 'Sriracha', cursive;
+    font-size: 26px;
+    color:#b44f4f; 
+    line-height: 30px;
+    margin-top: 2px;
+}
+
+
+
+
+.divka {
+    margin-top: 25px;
+}
+
+.divka1 {
+    margin-top: 15px;
+}
+
+
+
+

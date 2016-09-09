@@ -1,0 +1,237 @@
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+@import 'https://fonts.googleapis.com/css?family=Yatra+One';
+
+
+body {
+    background: #070606;
+   
+}
+
+
+#carousel {
+    height: 600px;
+    margin-top: 40px;
+}
+.fonts {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 27px;
+    color:#070707;
+    line-height: 28px; 
+    width: 360px;
+    font-weight: bolder;
+  
+    
+}
+.fonts1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 27px;
+    color:#070707;
+    line-height: 28px; 
+    width: 360px;
+    font-weight: bolder;
+ 
+}
+
+.setka {
+   left: 665px;
+   bottom: 305px;
+   position: absolute;
+}
+.glyphicon  {
+    padding: 0px 0px 0px 0px;
+   
+}
+#opop{
+    width: 14px;
+    
+}
+.setka1 {
+  left: 345px;
+   bottom: 290px;
+   position: absolute;
+}
+
+.atata {
+    top: 65px;
+    margin-left: 333px;
+}
+#opop1{
+    width: 14px;
+}
+.setka2{
+   right: 625px;
+   bottom: 45px;
+   position: absolute;
+}
+.atata1 {
+    top: 65px;
+    margin-left: 483px;
+}
+
+.wow {
+    height: 400px;
+       left: 650px;
+       bottom: 180px;
+    position: absolute;
+}
+
+.wow1 {
+    height: 220px;
+     left: 290px;
+       bottom: 270px;
+    position: absolute;
+    width: 420px;
+    color: #070707;
+}
+.wow2 {
+    height: 220px;
+     right: 580px;
+       bottom: 20px;
+    position: absolute;
+    width: 420px;
+    color: #070707;
+    -webkit-transform: rotate(180deg);
+}
+.wow3 {
+    height: 210px;
+     left: 520px;
+       bottom: 200px;
+    position: absolute;
+    width: 420px;
+    color: #070707;
+    -webkit-transform: rotate(deg);
+}
+
+.setka3 {
+   left: 578px;
+   bottom: 250px;
+   position: absolute;
+
+}
+#header {
+    width: 960px;
+    margin-top: 15px;
+  
+}
+
+.head {
+    margin-left: 350px;
+    width: 650px;
+    height: 90px;
+}
+
+@media screen and (max-width: 767px){
+    .masonry[data-columns]::before{
+        content: '2 .col-xs-12';
+       
+    }
+}
+    
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .masonry[data-columns]::before {
+        content: '2 .col-xs-6';
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .masonry[data-columns]::before{
+        content: '3 .col-xs-4';
+    }
+}
+@media screen and (min-width: 1200px){
+    .masonry[data-columns]::before{
+        content: '3 .col-xs-4';
+    }
+}
+
+.marvel {
+    position: absolute;
+    height: 40px;
+    bottom: 618px;
+    left: 1%;   
+}
+
+.imdb {
+    position: absolute;
+    height: 60px;
+    bottom: 608px;
+    left: 7.5%;
+    width: 80px;
+}
+
+.deadpoolof {
+    position: absolute;
+    height: 40px;
+    bottom: 618px;
+    left: 14%;
+    
+}
+
+
+.rtlogo {
+    position: absolute;
+    height: 40px;
+    bottom: 618px;
+    left: 17.5%;
+}
+
+.metacritic {
+   position: absolute;
+    height: 33px;
+    bottom: 622px;
+    left: 27.7%; 
+}
+
+.activision {
+    position: absolute;
+    height: 65px;
+    bottom: 607px;
+    left: 29.7%; 
+}
+.para1 {
+    font-family: 'Yatra One', cursive;
+    color: rgba(253, 253, 253, 0.86);
+    font-size: 27px;
+    text-align: center;
+    line-height: 27px;
+    margin-top: 2px;
+ }
+
+.gg-circle {
+    width: 55px;
+}
+
+
+
+.footertext {
+    font-family: 'Yatra One', cursive;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 0px;
+    line-height: 22px;
+}
+
+.foots {
+   margin-top: 30px;
+}
+
+
+
+
+.footertext1 {
+    font-family: 'Yatra One', cursive;
+    color: rgba(253, 253, 253, 0.86);
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    line-height: 22px;
+    bottom: 2px;
+    left: 620px;
+    
+}
+
+
+
+
+
+
