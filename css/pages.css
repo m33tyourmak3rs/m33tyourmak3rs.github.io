@@ -376,7 +376,193 @@ body {
 .divka1 {
     margin-top: 15px;
 }
+@media screen and (min-width: 800px) and (max-width: 989px)  {
+    body {
+        width: 80%;
+    }  
+
+    #header{
+      margin-left: -140px;
+    }
+    .elo{
+       width: 100%;
+    }
+    .elo5{
+        width: 100%;
+    }
+    .rightpick{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .para2{
+        width: 100%;
+    }
+    .panel-group{
+        float: left;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 799px) {
+    body{
+        width: 70%;
+        }
+    #header{
+        margin-left: -200px;
+    }
+    .head{
+        width: 60%;
+    }
+    .text{
+        font-size: 18px;
+        line-height: 18px;
+    }
+   
+    .navbar-default{
+        width: 110%;
+    }
+    .elo2{
+        width: 100%;
+        height: 100%;
+    }
+    .divo4ka{
+        display: none;
+    }
+    .elo{
+        width: 100%;
+        height: 100%;
+    }
+    .midpic{
+        width: 100%;
+        height: 100%;
+    }
+    .elo5{
+        width: 100%;
+    }
+    .rightpick{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .elo4{
+        width:100%;
+    }
+    .footertext3{
+    float: left;  
+    }
+     .para2{
+        width: 100%;
+    }
+    .panel-group{
+        float: left;
+        width: 100%;
+    }
+    .navbar-default{
+        width: 18px;
+        position: fixed;
+        bottom: 550px;
+        left: -1px;}
+    .zagolovok4{
+        display: none;
+    }
+    .pick{
+        width: 100%;
+        height: 100%;
+    }
+    .rightpicture1{
+        width: 100%;
+        height: 100%;
+    }
+    .zagolovok3{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 599px)  {
+    body{
+        width: 70%;
+        }
+    #header{
+        margin-left: -270px;
+    }
+    .head{
+        width: 60%;
+    }
+    .text{
+        font-size: 16px;
+        line-height: 16px;
+    }
+   
+    .navbar-default{
+        width: 18px;
+        position: fixed;
+        bottom: 550px;
+        left: -1px;
+        
+}
+    .poster{
+        width: 100%;
+        height: 100%;
+    }
+     .elo2{
+        width: 100%;
+        height: 100%;
+    }
+    .divo4ka{
+        display: none;
+    }
+    .elo{
+        width: 100%;
+        height: 100%;
+    }
+    .midpic{
+        width: 100%;
+        height: 100%;
+    }
+     .elo5{
+        width: 100%;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .rightpick{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .elo4{
+        width:100%; 
+        font-size: 16px;
+        line-height: 16px;
+    }
+      .footertext3{
+    float: left;  
+    }
+     .para2{
+        width: 100%;
+    }
+    .panel-group{
+        float: left;
+        width: 80%;}
+    .zagolovok4{
+       display: none;
+    }
+    .pick{
+        width: 100%;
+        height: 100%;
+    }
+    .rightpicture{
+        width: 100%;
+        height: 100%;
+    }
+    .panel-group{
+        width: 100%;
+    }
+       .rightpicture1{
+        width: 90%;
+        height: 90%;
+    }
+     .zagolovok3{
+        width: 100%;
+    }
+}
 
 
-
-
+.divo4ka {
+ margin-top: 25px;
+}

@@ -1,68 +1,67 @@
 @import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
 @import 'https://fonts.googleapis.com/css?family=Yatra+One';
-
-
 body {
     background: #070606;
-   
 }
-
 
 #carousel {
     height: 600px;
     margin-top: 40px;
 }
+
 .fonts {
     font-family: 'Permanent Marker', cursive;
     font-size: 27px;
-    color:#070707;
-    line-height: 28px; 
+    color: #070707;
+    line-height: 28px;
     width: 360px;
     font-weight: bolder;
-  
-    
 }
+
 .fonts1 {
     font-family: 'Permanent Marker', cursive;
     font-size: 27px;
-    color:#070707;
-    line-height: 28px; 
+    color: #070707;
+    line-height: 28px;
     width: 360px;
     font-weight: bolder;
- 
 }
 
 .setka {
-   left: 665px;
-   bottom: 305px;
-   position: absolute;
+    left: 665px;
+    bottom: 305px;
+    position: absolute;
 }
-.glyphicon  {
+
+.glyphicon {
     padding: 0px 0px 0px 0px;
-   
 }
-#opop{
+
+#opop {
     width: 14px;
-    
 }
+
 .setka1 {
-  left: 345px;
-   bottom: 290px;
-   position: absolute;
+    left: 345px;
+    bottom: 290px;
+    position: absolute;
 }
 
 .atata {
     top: 65px;
     margin-left: 333px;
 }
-#opop1{
+
+#opop1 {
     width: 14px;
 }
-.setka2{
-   right: 625px;
-   bottom: 45px;
-   position: absolute;
+
+.setka2 {
+    right: 625px;
+    bottom: 45px;
+    position: absolute;
 }
+
 .atata1 {
     top: 65px;
     margin-left: 483px;
@@ -70,32 +69,34 @@ body {
 
 .wow {
     height: 400px;
-       left: 650px;
-       bottom: 180px;
+    left: 650px;
+    bottom: 180px;
     position: absolute;
 }
 
 .wow1 {
     height: 220px;
-     left: 290px;
-       bottom: 270px;
+    left: 290px;
+    bottom: 270px;
     position: absolute;
     width: 420px;
     color: #070707;
 }
+
 .wow2 {
     height: 220px;
-     right: 580px;
-       bottom: 20px;
+    right: 580px;
+    bottom: 20px;
     position: absolute;
     width: 420px;
     color: #070707;
     -webkit-transform: rotate(180deg);
 }
+
 .wow3 {
     height: 210px;
-     left: 520px;
-       bottom: 200px;
+    left: 520px;
+    bottom: 200px;
     position: absolute;
     width: 420px;
     color: #070707;
@@ -103,15 +104,14 @@ body {
 }
 
 .setka3 {
-   left: 578px;
-   bottom: 250px;
-   position: absolute;
-
+    left: 578px;
+    bottom: 250px;
+    position: absolute;
 }
+
 #header {
     width: 960px;
     margin-top: 15px;
-  
 }
 
 .head {
@@ -120,25 +120,24 @@ body {
     height: 90px;
 }
 
-@media screen and (max-width: 767px){
-    .masonry[data-columns]::before{
+@media screen and (max-width: 767px) {
+    .masonry[data-columns]::before {
         content: '2 .col-xs-12';
-       
     }
 }
-    
-@media screen and (min-width: 768px) and (max-width: 991px){
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
     .masonry[data-columns]::before {
         content: '2 .col-xs-6';
     }
 }
-@media screen and (min-width: 992px) and (max-width: 1199px){
-    .masonry[data-columns]::before{
-        content: '3 .col-xs-4';
-    }
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+   w
 }
-@media screen and (min-width: 1200px){
-    .masonry[data-columns]::before{
+
+@media screen and (min-width: 1200px) {
+    .masonry[data-columns]::before {
         content: '3 .col-xs-4';
     }
 }
@@ -147,7 +146,7 @@ body {
     position: absolute;
     height: 40px;
     bottom: 618px;
-    left: 1%;   
+    left: 1%;
 }
 
 .imdb {
@@ -163,9 +162,7 @@ body {
     height: 40px;
     bottom: 618px;
     left: 14%;
-    
 }
-
 
 .rtlogo {
     position: absolute;
@@ -175,18 +172,19 @@ body {
 }
 
 .metacritic {
-   position: absolute;
+    position: absolute;
     height: 33px;
     bottom: 622px;
-    left: 27.7%; 
+    left: 27.7%;
 }
 
 .activision {
     position: absolute;
     height: 65px;
     bottom: 607px;
-    left: 29.7%; 
+    left: 29.7%;
 }
+
 .para1 {
     font-family: 'Yatra One', cursive;
     color: rgba(253, 253, 253, 0.86);
@@ -194,13 +192,11 @@ body {
     text-align: center;
     line-height: 27px;
     margin-top: 2px;
- }
+}
 
 .gg-circle {
     width: 55px;
 }
-
-
 
 .footertext {
     font-family: 'Yatra One', cursive;
@@ -212,26 +208,406 @@ body {
 }
 
 .foots {
-   margin-top: 30px;
+    margin-top: 30px;
 }
-
-
-
 
 .footertext1 {
     font-family: 'Yatra One', cursive;
     color: rgba(253, 253, 253, 0.86);
     font-size: 18px;
     text-align: center;
-    position: absolute;
     line-height: 22px;
     bottom: 2px;
     left: 620px;
-    
 }
 
+@media (max-width: 1200px) and (min-width: 1000px) {
+    .setka {
+        bottom: 230px;
+        left: 530px;
+    }
+    .fonts {
+        font-family: 'Permanent Marker', cursive;
+        font-size: 19px;
+        color: #070707;
+        line-height: 20px;
+        width: 270px;
+        font-weight: bolder;
+    }
+    .wow {
+        height: 300px;
+        left: 520px;
+        bottom: 130px;
+        position: absolute;
+    }
+    .btn.btn-danger {
+        position: absolute;
+        left: 500px;
+        bottom: 622px;
+    }
+    .carousel-indicators {
+        margin-bottom: 180px;
+    }
+    .carousel-control {
+        margin-bottom: 150px;
+    }
+    .footertext1 {
+        vertical-align: middle;
+        margin-bottom: 150px;
+        margin-left: -200px;
+    }
+    body {
+        height: 100%;
+        width: 100%;
+    }
+    .marvel,
+    {
+        width: 60px;
+        height: 40px;
+    }
+    .imdb {
+        width: 60px;
+        height: 60px;
+        margin-left: 20px;
+    }
+    .deadpoolof {
+        width: 40px;
+        margin-left: 15px;
+    }
+    .rtlogo {
+        width: 90px;
+        margin-left: 22px;
+    }
+    .metacritic {
+        width: 40px;
+        margin-left: 15px;
+    }
+    .activision {
+        margin-left: 20px;
+    }
+    .wow1 {
+        height: 150px;
+        bottom: 170px;
+        position: absolute;
+        left: 250px;
+        width: 320px;
+    }
+    .setka1 {
+        bottom: 170px;
+        left: 285px;
+    }
+    .fonts1 {
+        font-family: 'Permanent Marker', cursive;
+        font-size: 19px;
+        color: #070707;
+        line-height: 20px;
+        width: 270px;
+        font-weight: bolder;
+    }
+    .wow2 {
+        width: 320px;
+        right: 680px;
+        bottom: -20px;
+        height: 180px;
+    }
+    .setka2 {
+        right: 715px;
+        bottom: -1px;
+    }
+    .wow3 {
+        left: 450px;
+        bottom: 180px;
+        width: 340px;
+        height: 170px;
+    }
+    .setka3 {
+        left: 510px;
+        bottom: 220px;
+    }
+    .head{
+        width: 40%;
+        height: 60%;
+    }
+    #header{
+        margin-left: -250px;
+    }
+}
 
+@media (max-width: 999px) and (min-width: 800px) {
+    .setka {
+        bottom: 165px;
+        left: 405px;
+        position: absolute;
+    }
+    .fonts {
+        font-family: 'Permanent Marker', cursive;
+        font-size: 15px;
+        color: #070707;
+        line-height: 16px;
+        width: 230px;
+        font-weight: bolder;
+    }
+    .wow {
+        height: 250px;
+        left: 400px;
+        bottom: 90px;
+        position: absolute;
+    }
+    .btn.btn-danger {
+        position: absolute;
+        left: 500px;
+        bottom: 622px;
+    }
+    .carousel-indicators {
+        margin-bottom: 250px;
+    }
+    .carousel-control {
+        margin-bottom: 200px;
+    }
+    .footertext1 {
+        vertical-align: middle;
+        margin-bottom: 150px;
+        margin-left: -200px;
+    }
+    body {
+        height: 100%;
+        width: 100%;
+    }
+    .marvel,
+    {
+        width: 60px;
+        height: 40px;
+    }
+    .imdb {
+        width: 60px;
+        height: 60px;
+        margin-left: 28px;
+    }
+    .deadpoolof {
+        width: 40px;
+        margin-left: 32px;
+    }
+    .rtlogo {
+        width: 90px;
+        margin-left: 44px;
+    }
+    .metacritic {
+        width: 40px;
+        margin-left: 54px;
+    }
+    .activision {
+        margin-left: 65px;
+    }
+    .wow1 {
+        height: 120px;
+        bottom: 195px;
+        position: absolute;
+        left: 190px;
+        width: 290px;
+    }
+    .setka1 {
+        bottom: 200px;
+        left: 220px;
+    }
+    .fonts1 {
+        font-family: 'Permanent Marker', cursive;
+        font-size: 15px;
+        color: #070707;
+        line-height: 16px;
+        width: 270px;
+        font-weight: bolder;
+    }
+    .wow2 {
+        width: 300px;
+        right: 730px;
+        bottom: 30px;
+        height: 110px;
+    }
+    .setka2 {
+        right: 760px;
+        bottom: 45px;
+        width: 270px;
+    }
+    .wow3 {
+        left: 360px;
+        bottom: 160px;
+        width: 250px;
+        height: 120px;
+    }
+    .setka3 {
+        left: 365px;
+        bottom: 180px;
+    }
+    .head{
+        width: 40%;
+        height: 60%;
+        
+        
+}
+    #header{
+        width: 100%;
+        overflow: auto;
+        margin-left: -280px;
+      
 
+    }
+     .masonry[data-columns]::before {
+        content: '1 .col-xs-12';
+    }
+    .thumbnail{
+        width: 100%;
+    }
+}
+@media (max-width: 799px) and (min-width: 650px) {
+    .setka {
+        bottom: 120px;
+        left: 400px;
+        position: absolute;
+    }
+    .fonts {
+        font-family: 'Permanent Marker', cursive;
+        font-size: 12px;
+        color: #070707;
+        line-height: 13px;
+        width: 130px;
+        font-weight: bolder;
+    }
+    .wow {
+        height: 200px;
+        left: 375px;
+        bottom: 70px;
+        position: absolute;
+        width: 180px;
+    }
+    .btn.btn-danger {
+        position: absolute;
+        left: 500px;
+        bottom: 622px;
+    }
+    .carousel-indicators {
+        margin-bottom: 320px;
+    }
+    .carousel-control {
+        margin-bottom: 220px;
+    }
+    .footertext1 {
+        vertical-align: middle;
+        margin-bottom: 150px;
+        margin-left: -200px;
+    }
+    body {
+        height: 100%;
+        width: 100%;
+    }
+    .marvel,
+    {
+        width: 60px;
+        height: 40px;
+    }
+    .imdb {
+        width: 60px;
+        height: 60px;
+        margin-left: 38px;
+    }
+    .deadpoolof {
+        width: 40px;
+        margin-left: 52px;
+    }
+    .rtlogo {
+        width: 90px;
+        margin-left: 68px;
+    }
+    .metacritic {
+        width: 40px;
+        margin-left: 95px;
+    }
+    .activision{ 
+        margin-left: 108px;
+    }
+    .wow1 {
+        height: 100px;
+        bottom: 150px;
+        position: absolute;
+        left: 190px;
+        width: 220px;
+    }
+    .setka1 {
+        bottom: 150px;
+        left: 180px;
+    }
+    .fonts1 {
+        font-family: 'Permanent Marker', cursive;
+        font-size: 12px;
+        color: #070707;
+        line-height: 13px;
+        width: 270px;
+        font-weight: bolder;
+    }
+    .wow2 {
+        width: 330px;
+        right: 750px;
+        bottom: 10px;
+        height: 110px;
+    }
+    .setka2 {
+        right: 940px;
+        bottom: 35px;
+        width: 120px;
+       
+    }
+    .wow3 {
+        left: 340px;
+        bottom: 130px;
+        width: 190px;
+        height: 110px;
+    }
+    .setka3 {
+        left: 315px;
+        bottom: 150px;
+    }
+    .head{
+        width: 40%;
+        height: 60%;
+        
+        
+}
+    #header{
+        width: 100%;
+        overflow: auto;
+        margin-left: -280px;
+      
 
+    }
+     .masonry[data-columns]::before {
+        content: '1 .col-xs-12';
+    }
+    .thumbnail{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 100px) and (max-width: 649px){
+    .marvel,.imdb,.deadpoolof,.rtlogo,.metacritic,.activision,.setka,.wow,.fonts,.wow1,.setka1,.fonts1,.wow2,.setka2,.wow3,.setka3{  
+    display: none;
+    }
+    .btn.btn-danger{
+        left: 1px;
+        position: absolute;
+    }
+     .carousel-indicators {
+        margin-bottom: 450px;
+    }
+    .carousel-control {
+        margin-bottom: 400px;
+    }
+    #header{
+     display: none;
 
+    }
+     .masonry[data-columns]::before {
+        content: '1 .col-xs-12';
+    }
+    .thumbnail{
+        width: 100%;
+    }
+    }   
 
