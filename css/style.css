@@ -585,29 +585,325 @@ body {
         width: 100%;
     }
 }
-@media screen and (min-width: 100px) and (max-width: 649px){
-    .marvel,.imdb,.deadpoolof,.rtlogo,.metacritic,.activision,.setka,.wow,.fonts,.wow1,.setka1,.fonts1,.wow2,.setka2,.wow3,.setka3{  
-    display: none;
+@media screen and (min-width: 500px) and (max-width: 649px) {
+    .marvel,
+    .imdb,
+    .deadpoolof,
+    .rtlogo,
+    .metacritic,
+    .activision,
+    .wow2 {
+        display: none;
     }
-    .btn.btn-danger{
+    .btn.btn-danger {
         left: 1px;
-        position: absolute;
+        bottom: 620px;
+        position: fixed;
     }
-     .carousel-indicators {
-        margin-bottom: 450px;
+    .carousel-indicators {
+        display: none;
+        margin-bottom: 380px;
     }
     .carousel-control {
-        margin-bottom: 400px;
+        margin-bottom: 380px;
     }
-    #header{
-     display: none;
-
+    #header {
+        display: none;
     }
-     .masonry[data-columns]::before {
+    .masonry[data-columns]::before {
         content: '1 .col-xs-12';
     }
-    .thumbnail{
+    .thumbnail {
         width: 100%;
     }
-    }   
-
+    .setka {
+        bottom: 110px;
+        left: 320px;
+        position: absolute;
+       
+    }
+    .fonts {
+        font-family: 'Permanent Marker', cursive;
+        font-size: 8px;
+        color: #070707;
+        line-height: 8px;
+        width: 100px;
+        font-weight: bolder;
+        
+    }
+    .wow {
+        height: 120px;
+        left: 304px;
+        bottom: 81px;
+        position: absolute;
+        width: 130px;
+    }
+    .wow1 {
+        height: 70px;
+        bottom: 115px;
+        position: absolute;
+        left: 250px;
+        width: 150px;
+    }
+    .setka1 {
+        bottom: 110px;
+        left: 210px;
+    }
+    .fonts1 {
+        font-family: 'Permanent Marker', cursive;
+        font-size: 8px;
+        color: #070707;
+        line-height: 7px;
+        width: 250px;
+        font-weight: bolder;
+    }
+    
+    .setka2 {
+        right: 870px;
+        bottom: -5px;
+        width: 20px;
+       
+        
+    }
+    .wow3 {
+        left: 270px;
+        bottom: 100px;
+        width: 160px;
+        height: 90px;
+    }
+    .setka3 {
+        left: 240px;
+        bottom: 120px;
+    }
+}
+@media screen and (min-width: 399px) and (max-width: 499px) {
+    .marvel,
+    .imdb,
+    .deadpoolof,
+    .rtlogo,
+    .metacritic,
+    .activision,
+    .wow2,
+    .wow, 
+    .wow1,
+    .wow3{
+        display: none;
+    }
+    .btn.btn-danger {
+        left: 1px;
+        bottom: 620px;
+        position: fixed;
+    }
+    .carousel-indicators {
+        display: none;
+        margin-bottom: 380px;
+    }
+    .carousel-control {
+        margin-bottom: 380px;
+    }
+    #header {
+        display: none;
+    }
+    .masonry[data-columns]::before {
+        content: '1 .col-xs-12';
+    }
+    .thumbnail {
+        width: 100%;
+    }
+    .setka {
+        bottom: 70px;
+        left: 300px;
+        position: absolute;
+       
+       
+    }
+    .fonts {
+        font-family: 'Permanent Marker', cursive;
+        font-size: 5px;
+        color: #070707;
+        line-height: 5px;
+        width: 40px;
+        font-weight: bolder;
+        
+    }
+   
+    .setka1 {
+        bottom: 80px;
+        left: 150px;
+    }
+    .fonts1 {
+        font-family: 'Permanent Marker', cursive;
+        font-size: 5px;
+        color: #070707;
+        line-height: 5px;
+        width: 250px;
+        font-weight: bolder;
+    }
+    
+    .setka2 {
+        right: 890px;
+        bottom: -5px;
+        width: 20px;
+       
+        
+    }
+     
+    .setka3 {
+        left: 150px;
+        bottom: 80px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 398px) {
+    .marvel,
+    .imdb,
+    .deadpoolof,
+    .rtlogo,
+    .metacritic,
+    .activision,
+    .wow2,
+    .wow, 
+    .wow1,
+    .wow3{
+        display: none;
+    }
+    .btn.btn-danger {
+        left: 1px;
+        bottom: 620px;
+        position: fixed;
+    }
+    .carousel-indicators {
+        display: none;
+        margin-bottom: 380px;
+    }
+    .carousel-control {
+        margin-bottom: 380px;
+    }
+    #header {
+        display: none;
+    }
+    .masonry[data-columns]::before {
+        content: '1 .col-xs-12';
+    }
+    .thumbnail {
+        width: 100%;
+    }
+    .setka {
+        bottom: 35px;
+        left: 230px;
+        position: absolute;
+       
+       
+    }
+    .fonts {
+        font-family: 'Permanent Marker', cursive;
+        font-size: 5px;
+        color: #070707;
+        line-height: 5px;
+        width: 40px;
+        font-weight: bolder;
+        
+    }
+   
+    .setka1 {
+        bottom: 50px;
+        left: 100px;
+    }
+    .fonts1 {
+        font-family: 'Permanent Marker', cursive;
+        font-size: 5px;
+        color: #070707;
+        line-height: 5px;
+        width: 250px;
+        font-weight: bolder;
+    }
+    
+    .setka2 {
+        right: 920px;
+        bottom: -12px;
+        width: 20px;
+       
+        
+    }
+     
+    .setka3 {
+        left: 120px;
+        bottom: 50px;
+    }
+}
+@media screen and (min-width: 280px) and (max-width: 319px) {
+    .marvel,
+    .imdb,
+    .deadpoolof,
+    .rtlogo,
+    .metacritic,
+    .activision,
+    .wow2,
+    .wow, 
+    .wow1,
+    .wow3{
+        display: none;
+    }
+    .btn.btn-danger {
+        left: 1px;
+        bottom: 620px;
+        position: fixed;
+    }
+    .carousel-indicators {
+        display: none;
+        margin-bottom: 380px;
+    }
+    .carousel-control {
+        margin-bottom: 410px;
+    }
+    #header {
+        display: none;
+    }
+    .masonry[data-columns]::before {
+        content: '1 .col-xs-12';
+    }
+    .thumbnail {
+        width: 100%;
+    }
+    .setka {
+        bottom: 20px;
+        left: 195px;
+        position: absolute;
+       
+      
+    }
+    .fonts {
+        font-family: 'Permanent Marker', cursive;
+        font-size: 5px;
+        color: #070707;
+        line-height: 5px;
+        width: 40px;
+        font-weight: bolder;
+        
+    }
+   
+    .setka1 {
+        bottom: 30px;
+        left: 70px;
+    }
+    .fonts1 {
+        font-family: 'Permanent Marker', cursive;
+        font-size: 5px;
+        color: #070707;
+        line-height: 5px;
+        width: 250px;
+        font-weight: bolder;
+    }
+    
+    .setka2 {
+        right: 950px;
+        bottom: -15px;
+        width: 20px;
+       
+        
+    }
+     
+    .setka3 {
+        left: 85px;
+        bottom: 40px;
+    }
+}
