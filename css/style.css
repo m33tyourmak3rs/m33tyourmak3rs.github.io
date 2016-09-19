@@ -682,7 +682,7 @@ body {
         font-family: 'Sriracha', cursive;
         position: fixed;
         top: 20px;
-        right: 35%;
+        left: 1%;
     }
 }
 
@@ -760,7 +760,7 @@ body {
         font-family: 'Sriracha', cursive;
         position: fixed;
         top: 20px;
-        right: 35%;
+        left: 1%;
     }
 }
 
@@ -838,7 +838,7 @@ body {
         font-family: 'Sriracha', cursive;
         position: fixed;
         top: 20px;
-        right: 35%;
+        left: 1%;
     }
 }
 
@@ -914,9 +914,9 @@ body {
     .fufufu {
         color: white;
         font-family: 'Sriracha', cursive;
-        position: fixed;
+        position: absolute;
         top: 20px;
-        right: 35%;
+        left: 1%;
     }
 
 
