@@ -133,7 +133,7 @@ body {
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
-    w
+    
 }
 
 @media screen and (min-width: 1200px) {
@@ -220,7 +220,11 @@ body {
     bottom: 2px;
     left: 620px;
 }
-
+@media (max-width: 1800px) and (min-width: 1201px) {
+    .fufufu{
+        display: none;
+    }
+}
 @media (max-width: 1200px) and (min-width: 1000px) {
     .setka {
         bottom: 230px;
