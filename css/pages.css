@@ -419,6 +419,7 @@ body {
    
     .navbar-default{
         width: 110%;
+       
     }
     .elo2{
         width: 100%;
@@ -457,8 +458,8 @@ body {
     }
     .navbar-default{
         width: 18px;
-        position: fixed;
-        bottom: 550px;
+        position: absolute;
+        bottom: 400px;
         left: -1px;}
     .zagolovok4{
         display: none;
@@ -492,8 +493,8 @@ body {
    
     .navbar-default{
         width: 18px;
-        position: fixed;
-        bottom: 550px;
+        position: absolute;
+        bottom: 400px;
         left: -1px;
         
 }
