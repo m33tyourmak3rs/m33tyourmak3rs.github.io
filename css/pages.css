@@ -403,6 +403,9 @@ body {
     }
 }
 @media screen and (min-width: 600px) and (max-width: 799px) {
+    .masonry[data-columns]::before {
+        content: '1.col-xs-12';
+    }
     body{
         width: 70%;
         }
@@ -477,6 +480,9 @@ body {
     }
 }
 @media screen and (min-width: 375px) and (max-width: 599px)  {
+     .masonry[data-columns]::before {
+         content: '1.col-xs-12';
+    }
     body{
         width: 70%;
         }
