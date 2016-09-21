@@ -376,16 +376,10 @@ body {
 .divka1 {
     margin-top: 15px;
 }
-@media (max-width: 1200px) and (min-width: 1000px) {
-       .masonry[data-columns]::before {
-         content: '1.col-xs-12';
-        
-    }
-    
-}
+
 @media screen and (min-width: 800px) and (max-width: 989px)  {
      .masonry[data-columns]::before {
-         content: '1.col-xs-12';
+         content: '1.col-sm-6';
     }
     body {
         width: 70%;
