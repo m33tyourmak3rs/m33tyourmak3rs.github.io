@@ -377,6 +377,9 @@ body {
     margin-top: 15px;
 }
 @media screen and (min-width: 800px) and (max-width: 989px)  {
+     .masonry[data-columns]::before {
+         content: '1.col-xs-12';
+    }
     body {
         width: 80%;
     }  
