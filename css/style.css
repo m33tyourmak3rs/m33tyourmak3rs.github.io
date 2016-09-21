@@ -341,6 +341,7 @@ body {
 }
 
 @media (max-width: 999px) and (min-width: 800px) {
+    
     .setka {
         bottom: 165px;
         left: 405px;
@@ -466,6 +467,9 @@ body {
 }
 
 @media (max-width: 799px) and (min-width: 650px) {
+   .masonry[data-columns]::before {
+         content: '1.col-xs-12';
+    }
     .setka {
         bottom: 120px;
         left: 400px;
